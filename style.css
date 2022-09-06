@@ -67,6 +67,7 @@ body{
 
 .section-nav .content{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	overflow-x: hidden;
 }
@@ -177,7 +178,15 @@ body{
 .section-optimisation{
 	background-color: #f1f1f1;
 	padding: 4rem;
+
 }
+
+.section-optimisation .optimisation-title-description{
+	display: flex;
+	justify-content: center;
+	margin: 0 1rem;
+}
+
 .section-optimisation .title{
 	text-align: center;
 	font-size: 3.3rem;
@@ -234,7 +243,12 @@ body{
 	padding: 0 3rem;
 }
 
+.analyse-publication-card{
+	margin: 1rem 0px;
+}
+
 .analyse-publication*{
+	margin: 3rem 0px;
 }
 .analyse-publication .publication-img, .analyse-publication .analyse-img{
 	display: flex !important;
@@ -294,7 +308,7 @@ body{
 
 .resultats .content{
 	margin: 1rem;
-	height: 450px;
+	height: 550px;
 	box-shadow: #00000042 0px 0px 10px;
 }
 
@@ -322,6 +336,9 @@ body{
 
 .section-forwho .forwho{
 	padding: 2rem !important;
+	display: flex;
+	align-items: center;
+	text-align: center;
 }
 
 .section-forwho .forwho .image{
