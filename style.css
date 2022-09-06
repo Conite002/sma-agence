@@ -301,6 +301,10 @@ body{
 
 .special-card{
 	transition: all .6s ease;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .special-card:hover{
 	transform: scale(1.05);
